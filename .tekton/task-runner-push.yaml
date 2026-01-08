@@ -53,6 +53,15 @@ spec:
     name: build-pipeline
   taskRunTemplate:
     serviceAccountName: build-pipeline-task-runner
+  taskRunSpecs:
+    - pipelineTaskName: sast-snyk-check
+      stepSpecs:
+        - name: use-trusted-artifact
+          computeResources:
+            requests:
+              memory: 4Gi
+            limits:
+              memory: 4Gi
   workspaces:
   - name: git-auth
     secret:

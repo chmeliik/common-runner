@@ -309,9 +309,15 @@ This uses [rpm-lockfile-prototype] to resolve and lock package versions.
 
 When making a new release, bump the version according to the first matching rule:
 
-- Removed a tool / updated the major version of any tool -> bump the **major** version
-- Added a new tool / updated the minor version of any tool -> bump the **minor** version
-- Otherwise -> bump the **patch** version
+- Bump the **major** number if this version:
+  - Removes a tool
+  - Updates the major version of any tool
+  - Makes a different breaking change
+- Bump the **minor** number if this version:
+  - Adds a new tool
+  - Updates the minor version of any tool
+  - Adds a different new feature
+- Otherwise, bump the **patch** number
 
 To bump the version automatically based on the changes in installed software, use:
 
@@ -321,6 +327,11 @@ devtool prep-release
 
 The tool will automatically update the VERSION file and output a markdown list with
 the changes since the last release. Include this list when updating CHANGELOG.md.
+
+> [!NOTE]
+> The tool *only* considers the changes in installed software. If there have been
+> other changes in the image configuration, please check whether the version change
+> proposed by the tool is accurate.
 
 If there are no relevant changes to the installed software (i.e. the `Installed-Software.md`
 file did not change), the tool will abort without doing any changes. In that case,

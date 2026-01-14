@@ -302,7 +302,7 @@ This uses [rpm-lockfile-prototype] to resolve and lock package versions.
 ### Versioning
 
 - The version of the runner image is tracked in the [VERSION](./VERSION) file
-  - The Konflux build pipeline automatically sets the `org.opencontainer.image.version`
+  - The Konflux build pipeline automatically sets the `org.opencontainers.image.version`
     annotation (and label as well) on the built image using our custom
     `.tekton/tasks/get-build-params.yaml` Task
 - All notable changes are tracked in the [CHANGELOG.md](./CHANGELOG.md) file

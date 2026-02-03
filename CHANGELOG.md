@@ -7,7 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- *Nothing yet.*
+
+## 1.3.0
+
+Date: 2026-02-03
+
+- `syft` 1.39.0 => 1.41.1
+- `yq` 4.50.1 => 4.52.2
+- `awscli` 1.44.12 => 1.44.29
+- `cosign` 2.6.1 => 2.6.2
+- `openssl` 3.5.1-5.el10_1 => 3.5.1-7.el10_1
 - Set default `WORKDIR` to `/home/taskuser` (previously `/`).
+
 
 ## 1.2.0
 

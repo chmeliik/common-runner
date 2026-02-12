@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi10/go-toolset:1.25.5@sha256:46c65f0a0b9dd5802490fb7908e8a99c037bb7633fcc66fd84a05982ac07cc6f AS go-build
+FROM registry.access.redhat.com/ubi10/go-toolset:1.25.5-1770726582@sha256:1edf7bd8e7175ec53a5eefb4e0008adfe30cb7b5ad6834ed7eeef1df9f1920dd AS go-build
 
 USER 0
 
@@ -22,7 +22,7 @@ RUN cd deps/go-submodules && \
     GOBIN=/deps/golang/bin ./install-submodules.sh
 
 
-FROM registry.access.redhat.com/ubi10/ubi-minimal:10.1-1769677092@sha256:f8c05e3c6d15fea32e59635477c0f690e6d4b88a81924e8619f369e57306b701
+FROM registry.access.redhat.com/ubi10/ubi-minimal:10.1-1770180557@sha256:a74a7a92d3069bfac09c6882087771fc7db59fa9d8e16f14f4e012fe7288554c
 
 COPY --from=go-build /deps/golang/bin/ /usr/local/bin/
 

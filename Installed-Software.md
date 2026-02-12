@@ -16,7 +16,7 @@ Re-generate with:
 | coreutils-single               | 9.5-6.el10                     | RPM                                      |
 | cosign                         | 2.6.2                          | `go install`                             |
 | crun                           | 1.23.1-1.el10_0                | RPM                                      |
-| curl                           | 8.12.1-2.el10                  | RPM                                      |
+| curl                           | 8.12.1-2.el10_1.2              | RPM                                      |
 | findutils                      | 4.10.0-5.el10                  | RPM                                      |
 | fuse-overlayfs                 | 1.16-1.el10_1                  | RPM                                      |
 | gawk                           | 5.3.0-6.el10                   | RPM                                      |
@@ -30,7 +30,7 @@ Re-generate with:
 | oc                             | 4.20.0                         | Git submodule (Go)                       |
 | openssl                        | 3.5.1-7.el10_1                 | RPM                                      |
 | oras                           | 1.3.0                          | `go install`                             |
-| python3                        | 3.12.12-1.el10_1               | RPM                                      |
+| python3                        | 3.12.12-3.el10_1               | RPM                                      |
 | retry                          | 1.0.0                          | [local](./local-tools/retry)             |
 | rpm                            | 4.19.1.1-20.el10               | RPM                                      |
 | sed                            | 4.9-3.el10                     | RPM                                      |

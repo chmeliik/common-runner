@@ -253,13 +253,13 @@ arches:
     name: glibc-devel
     evr: 2.39-58.el10_1.7
     sourcerpm: glibc-2.39-58.el10_1.7.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-124.35.1.el10_1.ppc64le.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/k/kernel-headers-6.12.0-124.38.1.el10_1.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
-    size: 3386705
-    checksum: sha256:58e16c2d2460ffa88e54139855cc32276444979682d57ae65388e8aa625c4bf9
+    size: 3388233
+    checksum: sha256:fd96b50a7e32b2229f8d1515ac723f61c99239fdc9c690c91f54439a93778ea2
     name: kernel-headers
-    evr: 6.12.0-124.35.1.el10_1
-    sourcerpm: kernel-6.12.0-124.35.1.el10_1.src.rpm
+    evr: 6.12.0-124.38.1.el10_1
+    sourcerpm: kernel-6.12.0-124.38.1.el10_1.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/appstream/os/Packages/l/libasan-14.3.1-2.1.el10.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-appstream-rpms
     size: 553228

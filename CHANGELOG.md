@@ -9,7 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - *Nothing yet.*
 
+## 1.4.1
+
+Date: 2026-02-19
+
+### Fixed
+
+Version 1.4.0 had mismatched RPM versions between architectures, which prevented
+the release from succeeding. Re-generated RPM lockfiles to resolve this mismatch.
+
 ## 1.4.0
+
+> [!WARNING]
+> This release was unsuccessful, see 1.4.1 instead.
 
 Date: 2026-02-19
 

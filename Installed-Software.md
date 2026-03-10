@@ -14,7 +14,7 @@ Re-generate with:
 | buildah                        | 1.43.1                         | `go install`                             |
 | conftest                       | 0.68.2                         | `go install`                             |
 | coreutils-single               | 9.5-7.el10                     | RPM                                      |
-| cosign                         | 2.6.3                          | `go install`                             |
+| cosign                         | 3.0.5                          | `go install`                             |
 | crun                           | 1.27-2.el10_2                  | RPM                                      |
 | curl                           | 8.12.1-4.el10                  | RPM                                      |
 | findutils                      | 4.10.0-5.el10                  | RPM                                      |

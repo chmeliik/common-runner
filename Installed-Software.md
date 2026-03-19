@@ -21,7 +21,6 @@ Re-generate with:
 | fuse-overlayfs                 | 1.16-1.el10_1                  | RPM                                      |
 | gawk                           | 5.3.0-6.el10                   | RPM                                      |
 | gettext-envsubst               | 0.22.5-6.el10                  | RPM                                      |
-| git-core                       | 2.47.3-1.el10_0                | RPM                                      |
 | grep                           | 3.11-10.el10                   | RPM                                      |
 | jq                             | 1.7.1-11.el10                  | RPM                                      |
 | kubectl                        | 1.35.2                         | Git submodule (Go)                       |

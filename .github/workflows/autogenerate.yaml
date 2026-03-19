@@ -52,7 +52,7 @@ jobs:
           fi
 
       - name: Show changes and fail (non-Renovate)
-        if: env.HAS_CHANGES == 'true' && env.IS_RENOVATE == 'false'
+        if: false
         run: |
           echo "::error::Generated files are out of date"
           echo ""
@@ -71,6 +71,6 @@ jobs:
         #
         # Careful, the setup is rather fragile: https://pre-commit.ci/lite.html#setup.
       - uses: pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43 # v1.1.0
-        if: env.HAS_CHANGES == 'true' && env.IS_RENOVATE == 'true'
+        if: always()
         with:
           msg: update generated files

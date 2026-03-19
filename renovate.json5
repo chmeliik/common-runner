@@ -13,7 +13,8 @@
   ],
   "prHourlyLimit": 0,
   "gitIgnoredAuthors": [
-    "github-actions[bot]@users.noreply.github.com"
+    "github-actions[bot]@users.noreply.github.com",
+    "117423508+pre-commit-ci-lite[bot]@users.noreply.github.com"
   ],
   "git-submodules": {
     "enabled": true,

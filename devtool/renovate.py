@@ -31,7 +31,11 @@ def renovate_json(go_packages: list[GoPackage]) -> dict[str, Any]:
         # Run bi-weekly on the 1st and 15th of each month
         "schedule": ["* * 1,15 * *"],
         "prHourlyLimit": 0,  # unlimited
-        "gitIgnoredAuthors": ["github-actions[bot]@users.noreply.github.com"],
+        "gitIgnoredAuthors": [
+            "github-actions[bot]@users.noreply.github.com",
+            # ID comes from: gh api '/users/pre-commit-ci-lite[bot]' --jq '.id'
+            "117423508+pre-commit-ci-lite[bot]@users.noreply.github.com",
+        ],
         "git-submodules": {
             "enabled": True,
             "packageRules": [

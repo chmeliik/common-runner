@@ -13,6 +13,9 @@ metadata:
         || "pyproject.toml".pathChanged()
         || ".tekton/task-runner-autogenerate.yaml".pathChanged()
       )
+  labels:
+    appstudio.openshift.io/application: task-runner
+    appstudio.openshift.io/component: task-runner
   name: task-runner-autogenerate
   namespace: acmiel-tenant
 spec:

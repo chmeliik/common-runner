@@ -30,14 +30,17 @@ Re-generate with:
 | microdnf                       | 3.10.1-1.el10                  | RPM                                      |
 | oc                             | 4.21.0                         | Git submodule (Go)                       |
 | olot                           | 0.1.17                         | `pip install`                            |
+| openssh-clients                | 9.9p1-14.el10_1                | RPM                                      |
 | openssl                        | 3.5.1-7.el10_1                 | RPM                                      |
 | oras                           | 1.3.0                          | `go install`                             |
 | python3                        | 3.12.12-3.el10_1.3             | RPM                                      |
 | retry                          | 1.0.0                          | [local](./local-tools/retry)             |
 | rpm                            | 4.19.1.1-20.el10               | RPM                                      |
+| rsync                          | 3.4.1-2.el10_1.2               | RPM                                      |
 | sed                            | 4.9-3.el10                     | RPM                                      |
 | select-oci-auth                | 1.0.0                          | [local](./local-tools/select-oci-auth)   |
 | skopeo                         | 1.20.0-3.el10_1                | RPM                                      |
+| subscription-manager           | 1.30.10.1-1.el10_1             | RPM                                      |
 | syft                           | 1.44.0                         | `go install`                             |
 | tar                            | 1.35-9.el10_1                  | RPM                                      |
 | tkn                            | 0.44.1                         | `go install`                             |

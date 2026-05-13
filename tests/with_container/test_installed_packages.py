@@ -12,6 +12,7 @@ package_name_to_executable_name = {
     "gettext-envsubst": "envsubst",
     "awscli": "aws",
     "huggingface-hub": "hf",
+    "openssh-clients": "ssh",
 }
 
 # overrides for tools that don't support a simple --version flag
@@ -22,6 +23,7 @@ version_arg_overrides = {
     "kubectl": ["version", "--client"],
     "oc": ["version", "--client"],
     "hf": ["version"],
+    "ssh": ["-V"],
 }
 
 expected_packages = list_packages(REPO_ROOT)
@@ -42,6 +44,8 @@ def test_package_returns_correct_version(
 
     if executable_name in ("microdnf", "olot"):
         pytest.skip(f"{executable_name} doesn't have a version flag")
+    if executable_name == "subscription-manager":
+        pytest.skip("'subscription-manager version' requires root and makes network calls")
 
     version_args = version_arg_overrides.get(executable_name, ["--version"])
     proc = task_runner_container.run_cmd([executable_name, *version_args])

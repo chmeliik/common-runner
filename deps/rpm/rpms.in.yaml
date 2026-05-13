@@ -13,9 +13,12 @@ packages:
   - git-core
   - jq
   - make
+  - openssh-clients
   - openssl
   - python3
+  - rsync
   - skopeo
+  - subscription-manager
   - tar
   - zip
 

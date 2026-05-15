@@ -1,6 +1,6 @@
 FROM quay.io/konflux-ci/rust-builder:1.94.1@sha256:8e84d5507f664cd2d3c6dfa1ad5ac33c3fd13480d6571c4ec1b9c3d26a28f0bc AS rust-builder
 
-FROM registry.access.redhat.com/ubi10/go-toolset:1.25.9@sha256:5b8444b6540e82fa669086a122e76cd42fd750284505bc622bfc3d38b97664e8 AS go-build
+FROM registry.access.redhat.com/ubi10/go-toolset:1.25.9@sha256:0a1242b10a483946adcf3e35e18f5a19996869468f73deff2c5ce451ce0fa6bc AS go-build
 
 USER 0
 
@@ -24,7 +24,7 @@ RUN cd deps/go-submodules && \
     GOBIN=/deps/golang/bin ./install-submodules.sh
 
 
-FROM registry.access.redhat.com/ubi10/ubi-minimal:10.1-1776834797@sha256:2a4785f399dc7ae2f3ca85f68bac0ccac47f3e73464a47c21e4f7ae46b55a053
+FROM registry.access.redhat.com/ubi10/ubi-minimal:10.1-1778576723@sha256:145c54e19de7ea25d958b54d981f95762d1a22d17f45fa8f013a5ea07f8ad68c
 
 COPY --from=go-build /deps/golang/bin/ /usr/local/bin/
 

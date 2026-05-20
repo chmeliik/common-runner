@@ -38,6 +38,7 @@ packages = ["devtool"]
 
 
 [tool.pytest.ini_options]
+pythonpath = ["."]  # needed so that tests can import from 'tests.*'
 testpaths = ["tests"]
 addopts = ["-vv"]
 log_level = "debug"

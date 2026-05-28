@@ -20,7 +20,7 @@ jobs:
         run: |
           make .venv
 
-      - name: Run checks
+      - name: Run lint, format, and type-check
         run: |
           make check-py
 

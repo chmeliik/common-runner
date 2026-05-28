@@ -62,7 +62,6 @@ def renovate_json(go_packages: list[GoPackage]) -> dict[str, Any]:
                 {
                     "matchFileNames": ["deps/rpm/**"],
                     "groupName": "RPMs",
-                    "automerge": True,
                 },
             ]
         },

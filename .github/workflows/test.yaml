@@ -31,7 +31,7 @@ jobs:
         env:
           TEST_IMAGE: quay.io/redhat-user-workloads/rhtap-build-tenant/task-runner:on-pr-${{ github.event.pull_request.head.sha }}
         run: |
-          .venv/bin/python3 -m pytest --color=yes --ignore=tests/with_container
+          .venv/bin/pytest --color=yes --ignore=tests/with_container
 
       - name: Check if the PR changes any files that should trigger container tests
         id: changed-container-files
@@ -85,4 +85,4 @@ jobs:
         env:
           TEST_IMAGE: quay.io/redhat-user-workloads/rhtap-build-tenant/task-runner:on-pr-${{ github.event.pull_request.head.sha }}
         run: |
-          .venv/bin/python3 -m pytest --color=yes tests/with_container
+          .venv/bin/pytest --color=yes tests/with_container

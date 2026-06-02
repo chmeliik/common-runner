@@ -1,11 +1,14 @@
 # Direct pip dependencies for task-runner image
 #
 # Add packages here and regenerate requirements.txt with:
-#   uv pip compile --generate-hashes requirements.in -o requirements.txt
+#   make pip-requirements
 #
 # Only add direct dependencies - transitive dependencies will be
 # resolved automatically when regenerating requirements.txt.
+#
+# Always pin to specific versions, this gives Renovate something to update
+# (else the resolved requirements.txt would never get updated).
 
-awscli
-huggingface-hub
-olot
+awscli==1.45.18
+huggingface-hub==1.17.0
+olot==0.1.17

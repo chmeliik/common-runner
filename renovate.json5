@@ -137,17 +137,13 @@
       }
     ]
   },
-  "rpm-lockfile": {
-    "packageRules": [
-      {
-        "matchFileNames": [
-          "deps/rpm/**"
-        ],
-        "groupName": "RPMs"
-      }
-    ]
-  },
   "pip_requirements": {
+    "enabled": false
+  },
+  "pip-compile": {
+    "managerFilePatterns": [
+      "deps/pip/requirements.txt"
+    ],
     "packageRules": [
       {
         "matchFileNames": [

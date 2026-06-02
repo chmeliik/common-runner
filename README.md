@@ -163,7 +163,7 @@ Process:
 1. Add the package name to `deps/pip/requirements.in`:
 
    ```
-   awscli
+   awscli==<current version>
    ```
 
 2. Regenerate `requirements.txt` and `requirements-build.txt`

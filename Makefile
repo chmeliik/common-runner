@@ -58,10 +58,12 @@ all-rpm-locks: $(RPM_LOCK_FILES)
 
 .PHONY: pip-requirements
 pip-requirements: .venv
+	# Careful, Renovate's pip-compile manager parses the uv flags (and is very fragile).
+	# Always use the '--long-name=value' form.
 	uv pip compile \
-		--python-version $(PYTHON_VERSION) \
+		--python-version=$(PYTHON_VERSION) \
 		--generate-hashes \
-		deps/pip/requirements.in -o deps/pip/requirements.txt
+		deps/pip/requirements.in --output-file=deps/pip/requirements.txt
 	uv run pybuild-deps compile \
 		--generate-hashes \
 		deps/pip/requirements.txt -o deps/pip/requirements-build.txt

@@ -65,13 +65,23 @@ def renovate_json(go_packages: list[GoPackage]) -> dict[str, Any]:
                 },
             ]
         },
-        "pip_requirements": {
+        # pip_requirements is a dumb manager that doesn't respect dependency relationships
+        "pip_requirements": {"enabled": False},
+        # Use the pip-compile manager instead, which parses the header in requirements.txt,
+        # updates the input requirements.in file and reruns the compile command.
+        "pip-compile": {
+            # Should match the .txt file, not the .in file:
+            # https://docs.renovatebot.com/modules/manager/pip-compile/#non-configured-managerfilepatterns
+            "managerFilePatterns": ["deps/pip/requirements.txt"],
             "packageRules": [
                 {
                     "matchFileNames": ["deps/pip/*"],
                     "groupName": "Non-RPM dependencies",
                 },
-            ]
+            ],
+            # Don't open separate "Refresh pip-compile outputs" PRs.
+            # Only update indirect deps when the direct ones need it, or for security updates.
+            "lockFileMaintenance": {"enabled": False},
         },
         "dockerfile": {
             "packageRules": [

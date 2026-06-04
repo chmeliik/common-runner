@@ -6,3 +6,17 @@ Read the following files before working on this repository:
   workflow, testing, and releasing
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how to report issues, submit pull
   requests, commit guidelines, and review process
+
+## Single-File Verification
+
+Lint and type-check individual files without a full build:
+
+```sh
+# Python
+uv run ruff check path/to/file.py
+uv run ruff format --check path/to/file.py
+uv run pyright path/to/file.py
+
+# Shell
+shellcheck path/to/file.sh
+```

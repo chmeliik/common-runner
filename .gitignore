@@ -1,7 +1,16 @@
 # Python
 __pycache__/
 *.egg-info/
+*.py[cod]
 
 # dotenv
 .env
 .envrc
+
+# virtualenv
+.venv/
+
+# misc tmp files
+*.swp
+*.swo
+.DS_Store

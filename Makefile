@@ -29,6 +29,9 @@ fmt-py:
 autofix-py:
 	uv run ruff check --fix
 
+.PHONY: lint
+lint: check-py shellcheck
+
 .PHONY: shellcheck
 shellcheck:
 	@if ! command -v shellcheck >/dev/null; then \

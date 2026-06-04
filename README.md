@@ -209,6 +209,7 @@ These two are an exception to the rule. We don't intend to add more local tools.
 - [uv](https://docs.astral.sh/uv/) (Python package manager)
 - Podman
 - Skopeo
+- [ShellCheck](https://github.com/koalaman/shellcheck) (for `make lint` / `make shellcheck`)
 
 ### Setup
 
@@ -233,6 +234,27 @@ The `devtool` CLI assists with common development tasks:
 devtool ls         # List all tools to be installed
 devtool gen --all  # Generate files (e.g. Installed-Software.md)
 ```
+
+### Linting and Formatting
+
+Run all linters (Python + shell):
+
+```sh
+make lint
+```
+
+This runs both `make check-py` and `make shellcheck`. You can also run them
+individually:
+
+- `make check-py` — checks Python formatting (ruff format), linting (ruff check),
+  and type-checking (pyright)
+- `make shellcheck` — runs [ShellCheck](https://github.com/koalaman/shellcheck)
+  on shell scripts in `local-tools/`
+
+To auto-fix Python issues:
+
+- `make fmt-py` — auto-format Python code (ruff format)
+- `make autofix-py` — auto-fix Python lint issues (ruff check --fix)
 
 ### Building the Image
 

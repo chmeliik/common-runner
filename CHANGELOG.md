@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 *Nothing yet.*
 
+## 2.0.0
+
+Date: 2026-06-16
+
+Major version upgrade of cosign
+
+### Installed Software
+
+- `cosign` 2.6.3 => 3.0.5
+
 ## 1.8.1
 
 Date: 2026-06-05

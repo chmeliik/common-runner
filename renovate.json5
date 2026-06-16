@@ -78,7 +78,7 @@
           "deps/go-tools/cosign/*"
         ],
         "matchPackageNames": [
-          "github.com/sigstore/cosign/v2"
+          "github.com/sigstore/cosign/v3"
         ],
         "enabled": true,
         "groupName": "Non-RPM dependencies"

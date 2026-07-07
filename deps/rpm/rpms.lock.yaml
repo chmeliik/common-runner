@@ -585,13 +585,6 @@ arches:
     name: openssl
     evr: 1:3.5.5-4.el10_2
     sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/baseos/os/Packages/o/openssl-libs-3.5.5-4.el10_2.aarch64.rpm
-    repoid: ubi-10-for-aarch64-baseos-rpms
-    size: 2233582
-    checksum: sha256:198b4ca99e8a3f64010496f2b51b71734a5b075ef4d7db71b6009640c42e8ea7
-    name: openssl-libs
-    evr: 1:3.5.5-4.el10_2
-    sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/baseos/os/Packages/p/pam-1.6.1-9.el10.aarch64.rpm
     repoid: ubi-10-for-aarch64-baseos-rpms
     size: 603171
@@ -849,13 +842,6 @@ arches:
     size: 5782355
     checksum: sha256:dc28daccbecc6f6a75869eb80732b48b2a27cd6bb328e451463cbc7ddff3c02d
     name: systemd
-    evr: 257-23.el10_2.2
-    sourcerpm: systemd-257-23.el10_2.2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/baseos/os/Packages/s/systemd-libs-257-23.el10_2.2.aarch64.rpm
-    repoid: ubi-10-for-aarch64-baseos-rpms
-    size: 825619
-    checksum: sha256:ac3a4846605cef89c88125ac378762cb6e1d094b46232d37e1d01bd7397d843c
-    name: systemd-libs
     evr: 257-23.el10_2.2
     sourcerpm: systemd-257-23.el10_2.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/baseos/os/Packages/s/systemd-pam-257-23.el10_2.2.aarch64.rpm
@@ -1513,13 +1499,6 @@ arches:
     name: openssl
     evr: 1:3.5.5-4.el10_2
     sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/baseos/os/Packages/o/openssl-libs-3.5.5-4.el10_2.ppc64le.rpm
-    repoid: ubi-10-for-ppc64le-baseos-rpms
-    size: 2498585
-    checksum: sha256:3e8d7cfe6e31e91859cb2b789bdbd9ca2333905196f4474fb6e18e1de044fc60
-    name: openssl-libs
-    evr: 1:3.5.5-4.el10_2
-    sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/baseos/os/Packages/p/pam-1.6.1-9.el10.ppc64le.rpm
     repoid: ubi-10-for-ppc64le-baseos-rpms
     size: 635154
@@ -1777,13 +1756,6 @@ arches:
     size: 6092604
     checksum: sha256:93aec18ead2045affa4661666f5aac3e0ce260a0814aa34c7066242b38af82aa
     name: systemd
-    evr: 257-23.el10_2.2
-    sourcerpm: systemd-257-23.el10_2.2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/baseos/os/Packages/s/systemd-libs-257-23.el10_2.2.ppc64le.rpm
-    repoid: ubi-10-for-ppc64le-baseos-rpms
-    size: 898438
-    checksum: sha256:1708ef5727fbff1fcd9893f83cc2b1c9956e615d8a63fa15233d1b01ae3a58a1
-    name: systemd-libs
     evr: 257-23.el10_2.2
     sourcerpm: systemd-257-23.el10_2.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/ppc64le/baseos/os/Packages/s/systemd-pam-257-23.el10_2.2.ppc64le.rpm
@@ -2434,13 +2406,6 @@ arches:
     name: openssl
     evr: 1:3.5.5-4.el10_2
     sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/os/Packages/o/openssl-libs-3.5.5-4.el10_2.s390x.rpm
-    repoid: ubi-10-for-s390x-baseos-rpms
-    size: 2148921
-    checksum: sha256:18a8ea4d0dabec6cce0a4003d9ad573e12d083b446a3a5630c0528d714efffdb
-    name: openssl-libs
-    evr: 1:3.5.5-4.el10_2
-    sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/os/Packages/p/pam-1.6.1-9.el10.s390x.rpm
     repoid: ubi-10-for-s390x-baseos-rpms
     size: 607853
@@ -2698,13 +2663,6 @@ arches:
     size: 5974895
     checksum: sha256:426b75341cb2140f8ff209db065569ebcc4e5c8e32bd9b8e3f8a0a1e226bfce1
     name: systemd
-    evr: 257-23.el10_2.2
-    sourcerpm: systemd-257-23.el10_2.2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/os/Packages/s/systemd-libs-257-23.el10_2.2.s390x.rpm
-    repoid: ubi-10-for-s390x-baseos-rpms
-    size: 868011
-    checksum: sha256:652b3f4e188437f3bbf044f2d23e2ec063bba3ee2adb4c17d2acb976e2f76871
-    name: systemd-libs
     evr: 257-23.el10_2.2
     sourcerpm: systemd-257-23.el10_2.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/baseos/os/Packages/s/systemd-pam-257-23.el10_2.2.s390x.rpm
@@ -3362,13 +3320,6 @@ arches:
     name: openssl
     evr: 1:3.5.5-4.el10_2
     sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/o/openssl-libs-3.5.5-4.el10_2.x86_64.rpm
-    repoid: ubi-10-for-x86_64-baseos-rpms
-    size: 2372448
-    checksum: sha256:ddb70c0189e80a5accff9cf326a1d9d31e8a92b0ec6b53e0d6ba0feb5587e5d8
-    name: openssl-libs
-    evr: 1:3.5.5-4.el10_2
-    sourcerpm: openssl-3.5.5-4.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/p/pam-1.6.1-9.el10.x86_64.rpm
     repoid: ubi-10-for-x86_64-baseos-rpms
     size: 598152
@@ -3626,13 +3577,6 @@ arches:
     size: 6051287
     checksum: sha256:c3adce9ac50ec7f70ae5e808b377b26e06067779970c64096f24a86d3972cd41
     name: systemd
-    evr: 257-23.el10_2.2
-    sourcerpm: systemd-257-23.el10_2.2.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/s/systemd-libs-257-23.el10_2.2.x86_64.rpm
-    repoid: ubi-10-for-x86_64-baseos-rpms
-    size: 866891
-    checksum: sha256:e6c963cbba8c9c65d322690d3bbf213af39768a1abe89f25873895051455017b
-    name: systemd-libs
     evr: 257-23.el10_2.2
     sourcerpm: systemd-257-23.el10_2.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/baseos/os/Packages/s/systemd-pam-257-23.el10_2.2.x86_64.rpm

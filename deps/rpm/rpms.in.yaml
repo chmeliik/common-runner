@@ -11,6 +11,7 @@ packages:
   - fuse-overlayfs  # For buildah, enables overlayfs if kernel-native implementation is not usable
   - gettext-envsubst
   - git-core
+  - git-lfs # for git-lfs support on git-clone tasks
   - jq
   - make
   - openssh-clients

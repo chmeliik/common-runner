@@ -7,7 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-*Nothing yet.*
+### Installed Software
+
+- `git-lfs` added (3.7.1-5.el10_2.5)
+- `coreutils-single` 9.5-7.el10 => 9.5-8.el10_2
+- `openssl` 3.5.5-3.el10_2 => 3.5.5-4.el10_2
+- `rsync` 3.4.1-6.el10_2 => 3.4.4-1.el10_2
+- `skopeo` 1.22.2-1.el10_2 => 1.22.2-2.el10_2
+
+### Changed
+
+- Added `git-lfs` to support cloning LFS-enabled repositories in the
+  [git-clone] task and its derived production variants.
+
+[git-clone]: https://github.com/konflux-ci/build-definitions/tree/main/task/git-clone
 
 ## 2.0.0
 

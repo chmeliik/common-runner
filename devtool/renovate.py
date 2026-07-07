@@ -14,16 +14,19 @@ def renovate_json(go_packages: list[GoPackage]) -> dict[str, Any]:
             "enabled": False,
         },
     ]
-    go_package_rules.extend(
-        {
+    for p in go_packages:
+        rule = {
             "matchManagers": ["gomod"],
             "matchFileNames": [f"deps/go-tools/{p.name}/*"],
             "matchPackageNames": [p.module_path],
             "enabled": True,
             "groupName": "Non-RPM dependencies",
         }
-        for p in go_packages
-    )
+        if p.module_path == "github.com/tektoncd/cli":
+            # Exclude tkn v0.45.0 because it has broken dependencies.
+            # Uses npm semver range syntax: https://www.npmjs.com/package/semver#ranges
+            rule["allowedVersions"] = "<v0.45.0 || >v0.45.0"
+        go_package_rules.append(rule)
 
     return {
         "$schema": "https://docs.renovatebot.com/renovate-schema.json",

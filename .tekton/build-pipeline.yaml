@@ -226,7 +226,7 @@ spec:
       - name: name
         value: buildah-remote-oci-ta
       - name: bundle
-        value: quay.io/acmiel-test/tekton-catalog/task-buildah-remote-oci:syft-normal
+        value: quay.io/acmiel-test/tekton-catalog/task-buildah-remote-oci:push-from-vm
       - name: kind
         value: task
       resolver: bundles

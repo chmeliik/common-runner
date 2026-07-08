@@ -7,15 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+*Nothing yet*.
+
+## 2.1.0
+
+Date: 2026-07-08
+
 ### Installed Software
 
 - `git-lfs` added (3.7.1-5.el10_2.5)
+- `cosign` 3.0.5 => 3.1.1
+- `huggingface-hub` 1.17.0 => 1.22.0
+- `oc` 4.21.0 => 4.22.0
+- `syft` 1.44.0 => 1.46.0
+- `awscli` 1.45.18 => 1.45.40
 - `coreutils-single` 9.5-7.el10 => 9.5-8.el10_2
+- `kubectl` 1.36.1 => 1.36.2
+- `olot` 0.1.17 => 0.1.18
 - `openssl` 3.5.5-3.el10_2 => 3.5.5-4.el10_2
 - `rsync` 3.4.1-6.el10_2 => 3.4.4-1.el10_2
 - `skopeo` 1.22.2-1.el10_2 => 1.22.2-2.el10_2
+- `tkn` 0.44.1 => 0.44.2
+- `yq` 4.53.2 => 4.53.3
 
-### Changed
+### Added
 
 - Added `git-lfs` to support cloning LFS-enabled repositories in the
   [git-clone] task and its derived production variants.

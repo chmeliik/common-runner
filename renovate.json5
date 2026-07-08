@@ -149,6 +149,12 @@
     ]
   },
   "pip_requirements": {
+    "enabled": false
+  },
+  "pip-compile": {
+    "managerFilePatterns": [
+      "deps/pip/requirements.txt"
+    ],
     "packageRules": [
       {
         "matchFileNames": [
@@ -156,7 +162,10 @@
         ],
         "groupName": "Non-RPM dependencies"
       }
-    ]
+    ],
+    "lockFileMaintenance": {
+      "enabled": false
+    }
   },
   "dockerfile": {
     "packageRules": [

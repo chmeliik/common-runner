@@ -4,13 +4,13 @@ lockfileVendor: redhat
 arches:
 - arch: aarch64
   packages:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/a/aardvark-dns-1.17.0-1.el10.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/a/aardvark-dns-1.17.1-1.el10_2.aarch64.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
-    size: 865525
-    checksum: sha256:d99742927b64c097b72b16f8fd4ae43edfe1e835b92d8c59a141ef5af5eec7f9
+    size: 865606
+    checksum: sha256:e75bae285906a7225284acbe03514491a8cd1b54f9d4c3cbd7ce06449c627fdb
     name: aardvark-dns
-    evr: 2:1.17.0-1.el10
-    sourcerpm: aardvark-dns-1.17.0-1.el10.src.rpm
+    evr: 2:1.17.1-1.el10_2
+    sourcerpm: aardvark-dns-1.17.1-1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/aarch64/appstream/os/Packages/c/containers-common-5.8-2.el10.noarch.rpm
     repoid: ubi-10-for-aarch64-appstream-rpms
     size: 174082
@@ -1832,13 +1832,13 @@ arches:
   module_metadata: []
 - arch: s390x
   packages:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/a/aardvark-dns-1.17.0-1.el10.s390x.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/a/aardvark-dns-1.17.1-1.el10_2.s390x.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
-    size: 944122
-    checksum: sha256:98b13d39d243f54d506120e3db2fbd6b3a6de879481bef108040266f276f9d1f
+    size: 944145
+    checksum: sha256:45ab54c42c4f33a1d6d9f5001c6fd83cacfbb7ce31c10d6be27a5a1fd1262324
     name: aardvark-dns
-    evr: 2:1.17.0-1.el10
-    sourcerpm: aardvark-dns-1.17.0-1.el10.src.rpm
+    evr: 2:1.17.1-1.el10_2
+    sourcerpm: aardvark-dns-1.17.1-1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/s390x/appstream/os/Packages/c/containers-common-5.8-2.el10.noarch.rpm
     repoid: ubi-10-for-s390x-appstream-rpms
     size: 174082
@@ -2739,13 +2739,13 @@ arches:
   module_metadata: []
 - arch: x86_64
   packages:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/a/aardvark-dns-1.17.0-1.el10.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/a/aardvark-dns-1.17.1-1.el10_2.x86_64.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
-    size: 931941
-    checksum: sha256:6ebe61d05b0c61d632b2bdff693332ac39236b10f001f9821ecd8528b7f8348c
+    size: 934191
+    checksum: sha256:5f0afe7c471df4fce7959491a2be1970ced3f2779f3d2a6c42b5219291e1581f
     name: aardvark-dns
-    evr: 2:1.17.0-1.el10
-    sourcerpm: aardvark-dns-1.17.0-1.el10.src.rpm
+    evr: 2:1.17.1-1.el10_2
+    sourcerpm: aardvark-dns-1.17.1-1.el10_2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi10/10/x86_64/appstream/os/Packages/c/containers-common-5.8-2.el10.noarch.rpm
     repoid: ubi-10-for-x86_64-appstream-rpms
     size: 174082

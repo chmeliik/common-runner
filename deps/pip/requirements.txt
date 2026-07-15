@@ -8,13 +8,13 @@ anyio==4.13.0 \
     --hash=sha256:08b310f9e24a9594186fd75b4f73f4a4152069e3853f1ed8bfbf58369f4ad708 \
     --hash=sha256:334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc
     # via httpx
-awscli==1.45.40 \
-    --hash=sha256:1a7ff4dfd629c0dc617452bf5d75a889cbcdbe3af2d60cb0cb8876936a9f90db \
-    --hash=sha256:d1555eed16b08cf3948eda040598f5f4c3c17bd6b7760cea5ba2ce63128cc8e6
+awscli==1.45.46 \
+    --hash=sha256:7b46a076b6201892212d2e2dd619b52e5862d3a0929e7d70f72524aec246e660 \
+    --hash=sha256:e627e94b26fefa6e495e9654721c76faa3526386d11d5e8b3d6319c4911bdc5f
     # via -r deps/pip/requirements.in
-botocore==1.43.40 \
-    --hash=sha256:0bc9d352267c9e48415c5d7bb61ff05c3f193eac2fc7e69cfd229a05fbab67d6 \
-    --hash=sha256:2085a4314cfd2c8bc1d08ab8039f76c92e99278db0d2a0e2437010526d5d5d70
+botocore==1.43.46 \
+    --hash=sha256:59f2e1ac3cdc66d191cae91c0804bc41847ce817dc8147cf43eaada8f76a5533 \
+    --hash=sha256:cb673891e623ae6e6a1bf24d94ef169504f3eb02584adb5d5bee2f6aae819b60
     # via
     #   awscli
     #   s3transfer
@@ -85,9 +85,9 @@ httpx==0.28.1 \
     --hash=sha256:75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc \
     --hash=sha256:d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad
     # via huggingface-hub
-huggingface-hub==1.22.0 \
-    --hash=sha256:b09e19309ae09ee0a71892701c4fe70af39ab4e00817321dc62f2289a977249b \
-    --hash=sha256:e2dfe5fe1ec3b87ba2709aa34555b23e3f3f6ad4d7255238e13ddb8348e6bbfa
+huggingface-hub==1.23.0 \
+    --hash=sha256:b1d604788f5adc7f0eb246e03e0ec19011ca06e38400218c347dccc3dffa64a2 \
+    --hash=sha256:c04997fb8bbdace1e57b7703d30ed7678af51f70d00d241819ff411b92ae9a88
     # via -r deps/pip/requirements.in
 idna==3.17 \
     --hash=sha256:466e48829084efe2548012b855df21540b96f2e20e51bd124c851536556a592c \

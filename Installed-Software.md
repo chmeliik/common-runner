@@ -8,7 +8,7 @@ Re-generate with:
 
 | Name                           | Version                        | Install Method                           |
 | ------------------------------ | ------------------------------ | ---------------------------------------- |
-| awscli                         | 1.45.40                        | `pip install`                            |
+| awscli                         | 1.45.46                        | `pip install`                            |
 | bash                           | 5.2.26-6.el10                  | RPM                                      |
 | bc                             | 1.07.1-23.el10                 | RPM                                      |
 | buildah                        | 1.44.0                         | `go install`                             |
@@ -24,7 +24,7 @@ Re-generate with:
 | git-core                       | 2.52.0-1.el10                  | RPM                                      |
 | git-lfs                        | 3.7.1-5.el10_2.5               | RPM                                      |
 | grep                           | 3.11-10.el10                   | RPM                                      |
-| huggingface-hub                | 1.22.0                         | `pip install`                            |
+| huggingface-hub                | 1.23.0                         | `pip install`                            |
 | jq                             | 1.7.1-11.el10_2.2              | RPM                                      |
 | kubectl                        | 1.36.2                         | Git submodule (Go)                       |
 | make                           | 4.4.1-9.el10                   | RPM                                      |
@@ -33,7 +33,7 @@ Re-generate with:
 | olot                           | 0.1.18                         | `pip install`                            |
 | openssh-clients                | 9.9p1-23.el10_2                | RPM                                      |
 | openssl                        | 3.5.5-4.el10_2                 | RPM                                      |
-| oras                           | 1.3.2                          | `go install`                             |
+| oras                           | 1.3.3                          | `go install`                             |
 | python3                        | 3.12.13-2.el10_2               | RPM                                      |
 | retry                          | 1.0.0                          | [local](./local-tools/retry)             |
 | rpm                            | 4.19.1.1-23.el10               | RPM                                      |

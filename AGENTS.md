@@ -20,3 +20,9 @@ uv run pyright path/to/file.py
 # Shell
 shellcheck path/to/file.sh
 ```
+
+## Pip Build Dependencies
+
+Duplicate package entries in `deps/pip/requirements-build.txt` are intentional.
+Do not deduplicate them. See the note in the [Pip Packages](README.md#pip-packages)
+section of the README.

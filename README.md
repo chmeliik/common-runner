@@ -178,6 +178,13 @@ Process:
    devtool gen --all
    ```
 
+> [!NOTE]
+> `requirements-build.txt` may contain the same package pinned to different versions.
+> This is expected. Different Python packages can require conflicting build dependencies,
+> and that's fine because build dependencies are installed in isolation per [PEP 517].
+> The `pybuild-deps` tool that generates this file lists all the required versions.
+> Do not deduplicate these entries, removing one can cause the build to fail.
+
 #### Local Tools
 
 Konflux Tasks have come to depend on two crucial scripts:
@@ -390,3 +397,4 @@ the changelog content yourself.
 [rpm-lockfile-prototype]: https://github.com/konflux-ci/rpm-lockfile-prototype
 [Hermeto]: https://github.com/hermetoproject/hermeto
 [containers-auth.json]: https://man.archlinux.org/man/containers-auth.json.5
+[PEP 517]: https://peps.python.org/pep-0517/

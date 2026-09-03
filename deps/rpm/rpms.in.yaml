@@ -50,10 +50,7 @@ upgradePackages:
   - sed
 
 arches:
-  - aarch64
   - x86_64
-  - s390x
-  - ppc64le
 
 context:
   containerfile: ../../Containerfile

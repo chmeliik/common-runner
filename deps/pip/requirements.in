@@ -10,5 +10,5 @@
 # (else the resolved requirements.txt would never get updated).
 
 awscli==1.45.2
-huggingface-hub==1.13.0
-olot==0.1.16
+huggingface-hub==2.0.0
+olot==1.2.1

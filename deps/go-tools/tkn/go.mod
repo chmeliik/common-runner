@@ -271,7 +271,7 @@ require (
 	github.com/tektoncd/chains v0.26.2 // indirect
 	github.com/tektoncd/cli v0.44.1 // indirect
 	github.com/tektoncd/hub v1.23.6 // indirect
-	github.com/tektoncd/pipeline v1.9.2 // indirect
+	github.com/tektoncd/pipeline v1.9.3 // indirect
 	github.com/tektoncd/triggers v0.35.0 // indirect
 	github.com/thales-e-security/pool v0.0.2 // indirect
 	github.com/theupdateframework/go-tuf v0.7.0 // indirect

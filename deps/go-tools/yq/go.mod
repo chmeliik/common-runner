@@ -1,6 +1,6 @@
 module github.com/konflux-ci/task-runner/deps/go-tools/yq
 
-go 1.25.3
+go 1.26.0
 
 tool github.com/mikefarah/yq/v4
 
@@ -30,10 +30,10 @@ require (
 	github.com/yuin/gopher-lua v1.1.2 // indirect
 	github.com/zclconf/go-cty v1.18.0 // indirect
 	go.yaml.in/yaml/v4 v4.0.0-rc.4 // indirect
-	golang.org/x/mod v0.34.0 // indirect
-	golang.org/x/net v0.52.0 // indirect
-	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.42.0 // indirect
-	golang.org/x/text v0.35.0 // indirect
-	golang.org/x/tools v0.42.0 // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
+	golang.org/x/sync v0.24.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
+	golang.org/x/tools v0.51.0 // indirect
 )
